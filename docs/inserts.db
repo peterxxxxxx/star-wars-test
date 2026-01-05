@@ -1,0 +1,24 @@
+-- Insertar Películas (Títulos clásicos en español latino)
+INSERT INTO films (title) VALUES 
+('Una Nueva Esperanza'), 
+('El Imperio Contraataca'), 
+('El Regreso del Jedi'),
+('La Amenaza Fantasma');
+
+-- Insertar Vehículos
+INSERT INTO vehicles (name, model) VALUES 
+('Reptador de las Arenas', 'Digger R-6'),
+('Deslizador terrestre X-34', 'X-34');
+
+-- Insertar Naves Espaciales
+INSERT INTO starships (name, model) VALUES 
+('Halcón Milenario', 'Carguero ligero YT-1300'),
+('Ala-X', 'T-65 Ala-X'),
+('TIE Avanzado x1', 'Motor de Iones Gemelos');
+
+-- Insertar Personajes
+INSERT INTO characters (name, birth_year, gender, height, mass, image_url) VALUES 
+('Luke Skywalker', '19BBY', 'masculino', '172', '77', 'https://tu-bucket.public.blob.vercel-storage.com/luke.jpg'),
+('C-3PO', '112BBY', 'n/a', '167', '75', 'https://tu-bucket.public.blob.vercel-storage.com/c3po.jpg'),
+('Darth Vader', '41.9BBY', 'masculino', '202', '136', 'https://tu-bucket.public.blob.vercel-storage.com/vader.jpg'),
+('Leia Organa', '19BBY', 'femenino', '150', '49', 'https://tu-bucket.public.blob.vercel-storage.com/leia.jpg');
